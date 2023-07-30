@@ -1,4 +1,4 @@
-class PWM
+class MCPWM
   attr_accessor :pin, :pulse_width_ticks, :period_ticks
 
   def initialize(pin = nil, **kwargs)
